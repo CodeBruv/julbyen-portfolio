@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Colors */
+.bg-first {
+  background-color: #faf6e9;
+}
+.text-first {
+  color: #faf6e9;
+}
+.bg-second {
+  background-color: #ece8d9;
+}
+.text-second {
+  color: #ece8d9;
+}
+.bg-third {
+  background-color: #fffdf6;
+}
+.text-third {
+  color: #fffdf6;
+}
+.bg-fourth {
+  background-color: #494949;
+}
+.text-fourth {
+  color: #494949;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.hover-lift {
+  transition: transform 0.3s, background-color 0.3s;
+}
+.hover-lift:hover {
+  transform: translateY(-5px);
+  background-color: #ece8d9;
+}

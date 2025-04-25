@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Julbyen Virtual Assistant - Admin, Support, Social Media">
+    <title>Juju | Virtual Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-first text-fourth font-poppins">
+    <!-- Navbar -->
+    <nav class="bg-second shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="font-[Dancing Script] text-3xl text-fourth">Juju</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#home" class="text-fourth hover:text-first">Home</a>
+                    <a href="#about" class="text-fourth hover:text-first">About</a>
+                    <a href="#services" class="text-fourth hover:text-first">Services</a>
+                    <a href="#resume" class="text-fourth hover:text-first">Resume</a>
+                    <a href="#projects" class="text-fourth hover:text-first">Projects</a>
+                    <a href="#testimonials" class="text-fourth hover:text-first">Testimonials</a>
+                    <a href="#contact" class="text-fourth hover:text-first">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-fourth focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-second">
+            <a href="#home" class="block px-4 py-2 text-fourth hover:bg-third">Home</a>
+            <a href="#about" class="block px-4 py-2 text-fourth hover:bg-third">About</a>
+            <a href="#services" class="block px-4 py-2 text-fourth hover:bg-third">Services</a>
+            <a href="#resume" class="block px-4 py-2 text-fourth hover:bg-third">Resume</a>
+            <a href="#projects" class="block px-4 py-2 text-fourth hover:bg-third">Projects</a>
+            <a href="#testimonials" class="block px-4 py-2 text-fourth hover:bg-third">Testimonials</a>
+            <a href="#contact" class="block px-4 py-2 text-fourth hover:bg-third">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero (Heading/Introduction) -->
+    <section id="home" class="bg-third py-20 fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="font-[Dancing Script] text-5xl md:text-6xl text-fourth mb-4">Juju: Your Virtual Assistant</h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-8">From schedules to social media management, I make your workday effortless.</p>
+            <a href="#contact" class="bg-second text-fourth px-6 py-3 rounded-md font-semibold hover:bg-first hover-lift">Hire Juju Today</a>
+            <img src="https://via.placeholder.com/300x150?text=Testimonial+1" alt="Client Testimonial" class="mt-8 mx-auto rounded-lg shadow-md max-w-xs">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 bg-first fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-[Dancing Script] text-4xl text-fourth mb-6">Meet Juju</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Hi, I’m Julbyen John (Juju to friends)! I’m a Virtual Assistant who loves turning chaos into order. 
+                With years of experience in admin, customer support, and social media, I help busy pros save time and stress. Let’s crush your to-do list together!</p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 bg-third fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-[Dancing Script] text-4xl text-fourth text-center mb-12">Services Offered</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-second p-6 rounded-lg shadow-md hover-lift">
+                    <i class="fas fa-calendar-alt text-3xl text-fourth mb-4"></i>
+                    <h3 class="font-[Dancing Script] text-2xl text-fourth mb-2">Admin Support</h3>
+                    <p class="text-gray-600">Organized schedules, tidy emails, and seamless travel plans.</p>
+                </div>
+                <div class="bg-second p-6 rounded-lg shadow-md hover-lift">
+                    <i class="fas fa-headset text-3xl text-fourth mb-4"></i>
+                    <h3 class="font-[Dancing Script] text-2xl text-fourth mb-2">Customer Support</h3>
+                    <p class="text-gray-600">Fast, empathetic and friendly responses to keep your clients happy.</p>
+                </div>
+                <div class="bg-second p-6 rounded-lg shadow-md hover-lift">
+                    <i class="fas fa-bullhorn text-3xl text-fourth mb-4"></i>
+                    <h3 class="font-[Dancing Script] text-2xl text-fourth mb-2">Social Media</h3>
+                    <p class="text-gray-600">Vibrant posts and schedules to boost your brand.</p>
+                </div>
+                <div class="bg-second p-6 rounded-lg shadow-md hover-lift">
+                    <i class="fas fa-pen text-3xl text-fourth mb-4"></i>
+                    <h3 class="font-[Dancing Script] text-2xl text-fourth mb-2">Content Creation</h3>
+                    <p class="text-gray-600">Newsletters, engaging visuals, captions, and research that keep the audience hooked.</p>
+                </div>
+                <div class="bg-second p-6 rounded-lg shadow-md hover-lift">
+                    <i class="fas fa-tasks text-3xl text-fourth mb-4"></i>
+                    <h3 class="font-[Dancing Script] text-2xl text-fourth mb-2">Project Coordination</h3>
+                    <p class="text-gray-600">Tasks tracked and completed with ease.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="py-20 bg-first fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-[Dancing Script] text-4xl text-fourth mb-6">My Resume</h2>
+            <p class="text-lg text-gray-600 mb-8">Explore my skills and experience in detail.</p>
+            <a href="https://drive.google.com/file/d/YOUR_RESUME_ID/view" target="_blank" class="bg-second text-fourth px-6 py-3 rounded-md font-semibold hover:bg-first hover-lift">View Resume</a>
+        </div>
+    </section>
+
+    <!-- Recent Projects -->
+    <section id="projects" class="py-20 bg-third fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-[Dancing Script] text-4xl text-fourth text-center mb-12">Recent Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-first p-4 rounded-lg shadow-md hover-lift">
+                    <img src="https://via.placeholder.com/300x200?text=Calendar+Sample" alt="Calendar Sample" class="w-full h-48 object-cover rounded-md mb-4">
+                    <p class="text-gray-600">Organized client schedule for efficiency.</p>
+                </div>
+                <div class="bg-first p-4 rounded-lg shadow-md hover-lift">
+                    <img src="https://via.placeholder.com/300x200?text=Social+Post" alt="Social Post" class="w-full h-48 object-cover rounded-md mb-4">
+                    <p class="text-gray-600">Boosted engagement with custom posts.</p>
+                </div>
+                <div class="bg-first p-4 rounded-lg shadow-md hover-lift">
+                    <img src="https://via.placeholder.com/300x200?text=Newsletter" alt="Newsletter" class="w-full h-48 object-cover rounded-md mb-4">
+                    <p class="text-gray-600">Crafted engaging client newsletter.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 bg-first fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-[Dancing Script] text-4xl text-fourth text-center mb-12">What Clients Say</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <img src="https://via.placeholder.com/300x150?text=Testimonial+2" alt="Client Testimonial" class="w-full rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/300x150?text=Testimonial+3" alt="Client Testimonial" class="w-full rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/300x150?text=Testimonial+4" alt="Client Testimonial" class="w-full rounded-lg shadow-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-third fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-[Dancing Script] text-4xl text-fourth mb-6">Get in Touch</h2>
+            <p class="text-lg text-gray-600 mb-8">Connect with me on your favorite platform!</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://linkedin.com/in/julbyen" target="_blank" class="text-fourth hover:text-first">
+                    <i class="fab fa-linkedin text-3xl"></i>
+                </a>
+                <a href="https://wa.me/YOUR_NUMBER" target="_blank" class="text-fourth hover:text-first">
+                    <i class="fab fa-whatsapp text-3xl"></i>
+                </a>
+                <a href="https://facebook.com/julbyen" target="_blank" class="text-fourth hover:text-first">
+                    <i class="fab fa-facebook text-3xl"></i>
+                </a>
+                <a href="https://instagram.com/julbyen" target="_blank" class="text-fourth hover:text-first">
+                    <i class="fab fa-instagram text-3xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-fourth py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-first">© <span id="year"></span> Julbyen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-second text-fourth p-3 rounded-full shadow-md hover:bg-first hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
