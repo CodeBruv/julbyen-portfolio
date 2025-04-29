@@ -133,9 +133,51 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="font-[Dancing Script] text-4xl text-fourth text-center mb-12">What Clients Say</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <img src="assets/client1.webp" alt="Client Testimonial" class="w-full rounded-lg shadow-md">
-                <img src="assets/client2.webp" alt="Client Testimonial" class="w-full rounded-lg shadow-md">
-                <img src="assets/client3.webp" alt="Client Testimonial" class="w-full rounded-lg shadow-md">
+                <!-- Testimonial 1 -->
+                <div class="bg-second p-6 rounded-lg shadow-md">
+                    <div class="testimonial-slider overflow-hidden relative" data-slider="1">
+                        <div class="slides flex transition-transform duration-300 ease-in-out">
+                            <img src="assets/client2.webp" alt="Client Testimonial 1A" class="rounded-lg">
+                            <img src="assets/client1.webp" alt="Client Testimonial 1B" class="rounded-lg">
+                        </div>
+                        <button class="prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-fourth text-first p-2 rounded-full hover:bg-third" data-slider="1" aria-label="Previous slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="next absolute top-1/2 right-2 transform -translate-y-1/2 bg-fourth text-first p-2 rounded-full hover:bg-third" data-slider="1" aria-label="Next slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-second p-6 rounded-lg shadow-md">
+                    <div class="testimonial-slider overflow-hidden relative" data-slider="2">
+                        <div class="slides flex transition-transform duration-300 ease-in-out">
+                            <img src="assets/client3.webp" alt="Client Testimonial 2A" class="rounded-lg">
+                            <img src="assets/client2.webp" alt="Client Testimonial 2B" class="rounded-lg">
+                        </div>
+                        <button class="prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-fourth text-first p-2 rounded-full hover:bg-third" data-slider="2" aria-label="Previous slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="next absolute top-1/2 right-2 transform -translate-y-1/2 bg-fourth text-first p-2 rounded-full hover:bg-third" data-slider="2" aria-label="Next slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-second p-6 rounded-lg shadow-md">
+                    <div class="testimonial-slider overflow-hidden relative" data-slider="3">
+                        <div class="slides flex transition-transform duration-300 ease-in-out">
+                            <img src="assets/client1.webp" alt="Client Testimonial 3A" class="rounded-lg">
+                            <img src="assets/client3.webp" alt="Client Testimonial 3B" class="rounded-lg">
+                        </div>
+                        <button class="prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-fourth text-first p-2 rounded-full hover:bg-third" data-slider="3" aria-label="Previous slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="next absolute top-1/2 right-2 transform -translate-y-1/2 bg-fourth text-first p-2 rounded-full hover:bg-third" data-slider="3" aria-label="Next slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

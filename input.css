@@ -45,3 +45,42 @@
   transform: translateY(-5px);
   background-color: #ece8d9;
 }
+
+/* Testimonial Slider Styles */
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+}
+.testimonial-slider .slides {
+  display: flex;
+  width: 200%; /* Two images */
+  transition: transform 0.3s ease-in-out;
+}
+.testimonial-slider .slides img {
+  width: 50%; /* Full width of slider */
+  height: 20rem; /* Base height for mobile */
+  object-fit: contain; /* Show full screenshot */
+  max-width: 100%;
+  display: block; /* Center images */
+  margin: 0 auto; /* Horizontal centering */
+}
+@media (min-width: 640px) { /* sm: breakpoint */
+  .testimonial-slider .slides img {
+      height: 24rem; /* Taller on tablets/desktops */
+  }
+}
+.testimonial-slider .prev,
+.testimonial-slider .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+.testimonial-slider .prev {
+  left: 0.5rem;
+}
+.testimonial-slider .next {
+  right: 0.5rem;
+}
